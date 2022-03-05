@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+$Poppins: 'Poppins', sans-serif;
+
+// colors
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$primary: rgb(162, 162, 246);
+$bg: rgb(244, 244, 255);
+$primary-color: #36a1d3;
+$secondary-color: #09a2c9;
+$black: #000000;
+$white: #ffffff;
+$gray: #efefef;
+$gray-2: #757575;
+$facebook-color: #4267b2;
+$google-color: #db4437;
+$twitter-color: #1da1f2;
+$insta-color: #e1306c;
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    // 768px
+    @media (min-width: 48em) {
+      @content;
+    }
+  }
+}
