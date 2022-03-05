@@ -1,3 +1,10 @@
+# To make a client(React) in typescript
+
+1. create a react application. Can use anything create-react-app or vite.
+2. Using Vite - `npm init vite@latest`
+3. Select typescript from options then cd into the newly created folder and do npm install
+4. Install sass using npm i -D sass
+
 # To make a server in typescript
 
 1. `npm init`
